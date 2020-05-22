@@ -21,5 +21,5 @@ WORKDIR /azp
 
 COPY ./start.sh .
 RUN chmod +x start.sh
-
+USER root
 CMD ["./start.sh"]
