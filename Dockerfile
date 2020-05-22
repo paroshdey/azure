@@ -19,7 +19,7 @@ RUN apt-get update \
 
 WORKDIR /azp
 
-COPY ./start.sh .
-RUN chmod +x start.sh
+COPY ./start1.sh .
+RUN chmod +x start1.sh
 USER root
-CMD ["./start.sh"]
+CMD ["./start1.sh"]
